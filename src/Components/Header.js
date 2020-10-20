@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <React.Fragment>
-      <header className="bg-brand-color text-white text-center">
-        <h1 className="display-3 font-weight-bold py-5">CHELSEA FC</h1>
+      <header className="fixed-top bg-brand-color text-white text-center">
+        <h1 className="display-3 font-weight-bold py-3">CHELSEA FC</h1>
         <nav className="navbar">
           <div className="container-fluid">
               <div className="collapsed navbar-collapse" id="navbarNav">

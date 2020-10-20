@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <div className="container-sm" style={{minHeight: "calc(100vh - 270px)"}}>
+        <div className="container-sm pb-5" style={{paddingTop: "140px"}}>
           <Switch>
             <Route exact path="/" component={Details} />
             <Route path="/matches" component={Matches} />
