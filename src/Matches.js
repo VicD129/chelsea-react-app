@@ -7,7 +7,7 @@ const options = {
   params: {timezone: 'Europe/London'},
   headers: {
     'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-    'x-rapidapi-key': 'deeb4a26b6msh90ba1b32839b8a4p1ffa17jsn9418a2b98044'
+    'x-rapidapi-key': ''
   }
 };
 
