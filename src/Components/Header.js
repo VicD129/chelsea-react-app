@@ -5,7 +5,7 @@ function Header() {
   return (
     <React.Fragment>
       <header className="fixed-top bg-brand-color text-white text-center">
-        <h1 className="display-3 font-weight-bold py-3">CHELSEA FC</h1>
+        <h1 className="display-3 font-weight-bold py-3">CHELSEA FAN</h1>
         <nav className="navbar">
           <div className="container-fluid">
               <div className="collapsed navbar-collapse" id="navbarNav">
