@@ -18,13 +18,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Details} />
-        <Route path="/matches" component={Matches} />
-        <Route path="/standings" component={Standings} />
-        <Route path="/squad" component={Squad} />
-      </Switch>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Details} />
+          <Route path="/matches" component={Matches} />
+          <Route path="/standings" component={Standings} />
+          <Route path="/squad" component={Squad} />
+        </Switch>
       </Router>
     </div>
   );

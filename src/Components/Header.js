@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <React.Fragment>
-      <header className="bg-primary text-white text-center">
+      <header className="bg-brand-color text-white text-center">
         <h1 className="display-3 font-weight-bold py-5">CHELSEA FC</h1>
         <nav className="navbar">
           <div className="container-fluid">
-              <div className="collapsed navbar-collapse" classID="navbarNav">
+              <div className="collapsed navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav flex-row justify-content-around">
                     <li className="nav-item">
                     <Link className="nav-link text-white font-weight-bolder" to="/">DETAILS</Link>
