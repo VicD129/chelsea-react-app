@@ -11,7 +11,7 @@ function Header() {
               <div className="collapsed navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav flex-row justify-content-around">
                     <li className="nav-item">
-                    <Link className="nav-link text-white font-weight-bolder" to="/">DETAILS</Link>
+                    <Link className="nav-link text-white font-weight-bolder" to="/">NEWS</Link>
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link text-white font-weight-bolder" to="/matches">MATCHES</Link>
