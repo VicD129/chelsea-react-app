@@ -2,6 +2,7 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -19,12 +20,15 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Details} />
-          <Route path="/matches" component={Matches} />
-          <Route path="/standings" component={Standings} />
-          <Route path="/squad" component={Squad} />
-        </Switch>
+        <div className="container-sm" style={{minHeight: "calc(100vh - 270px)"}}>
+          <Switch>
+            <Route exact path="/" component={Details} />
+            <Route path="/matches" component={Matches} />
+            <Route path="/standings" component={Standings} />
+            <Route path="/squad" component={Squad} />
+          </Switch>
+        </div>
+        <Footer />
       </Router>
     </div>
   );
