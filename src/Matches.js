@@ -7,7 +7,7 @@ const options = {
   params: {timezone: 'Europe/London'},
   headers: {
     'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-    'x-rapidapi-key': ''
+    'x-rapidapi-key': `${process.env.REACT_APP_RAPIDAPI_KEY}`
   }
 };
 
@@ -26,7 +26,7 @@ axios.request(options).then(function (response) {
 
 export const Matches = () => (
     <React.Fragment>
-        <h1 className="my-2 text-center">NEXT 5 GAMES</h1>
+        <h1 className="my-2 text-center">Matches</h1>
         <div id="fixture"></div>
         <br />
         <div className="card">
