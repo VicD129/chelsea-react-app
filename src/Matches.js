@@ -3,7 +3,7 @@ import axios from "axios";
 
 const options = {
   method: 'GET',
-  url: 'Matches.json'
+  url: '/data/Matches.json'
 //   url: 'https://rapidapi.p.rapidapi.com/v2/fixtures/team/49/next/5',
 //   params: {timezone: 'Europe/Kiev'},
 //   headers: {
