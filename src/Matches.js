@@ -3,19 +3,20 @@ import axios from "axios";
 
 const options = {
   method: 'GET',
-  url: 'https://rapidapi.p.rapidapi.com/v2/fixtures/team/49/next/5',
-  params: {timezone: 'Europe/London'},
-  headers: {
-    'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-    'x-rapidapi-key': `${process.env.REACT_APP_RAPIDAPI_KEY}`
-  }
+  url: 'Matches.json'
+//   url: 'https://rapidapi.p.rapidapi.com/v2/fixtures/team/49/next/5',
+//   params: {timezone: 'Europe/Kiev'},
+//   headers: {
+//     'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
+//     'x-rapidapi-key': `${process.env.REACT_APP_RAPIDAPI_KEY}`
+//   }
 };
 
 axios.request(options).then(function (response) {
     console.log(response.data);
     let output = '';
     response.data.api.fixtures.forEach(function(fixture) {
-        output += `<div class="my-5"><p class="text-center">${fixture.event_date}<br><span class="text-secondary">${fixture.league.name}</span></p><div class="d-flex"><div class="d-flex flex-column align-items-center text-center font-weight-bold" style="flex: 50%;"><img src="${fixture.homeTeam.logo}" width="64px"> ${fixture.homeTeam.team_name}</div><div class="d-flex flex-column align-items-center text-center font-weight-bold" style="flex: 50%;"><img src="${fixture.awayTeam.logo}" width="64px"> ${fixture.awayTeam.team_name}</div></div></div>`
+        output += `<div class="my-5"><p class="text-center">${fixture.event_date.toString()}<br><span class="text-secondary">${fixture.league.name}</span></p><div class="d-flex"><div class="d-flex flex-column align-items-center text-center font-weight-bold" style="flex: 50%;"><img src="${fixture.homeTeam.logo}" width="64px"> ${fixture.homeTeam.team_name}</div><div class="d-flex flex-column align-items-center text-center font-weight-bold" style="flex: 50%;"><img src="${fixture.awayTeam.logo}" width="64px"> ${fixture.awayTeam.team_name}</div></div></div>`
     });
 
     document.getElementById('fixture').innerHTML = output;

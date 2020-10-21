@@ -1,0 +1,197 @@
+{
+    "api": {
+      "results": 5,
+      "fixtures": [
+        {
+          "fixture_id": 592197,
+          "league_id": 2790,
+          "league": {
+            "name": "Premier League",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/39.png",
+            "flag": "https://media.api-sports.io/flags/gb.svg"
+          },
+          "event_date": "2020-10-24T19:30:00+03:00",
+          "event_timestamp": 1603557000,
+          "firstHalfStart": null,
+          "secondHalfStart": null,
+          "round": "Regular Season - 6",
+          "status": "Not Started",
+          "statusShort": "NS",
+          "elapsed": 0,
+          "venue": "Old Trafford",
+          "referee": null,
+          "homeTeam": {
+            "team_id": 33,
+            "team_name": "Manchester United",
+            "logo": "https://media.api-sports.io/football/teams/33.png"
+          },
+          "awayTeam": {
+            "team_id": 49,
+            "team_name": "Chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "goalsHomeTeam": null,
+          "goalsAwayTeam": null,
+          "score": {
+            "halftime": null,
+            "fulltime": null,
+            "extratime": null,
+            "penalty": null
+          }
+        },
+        {
+          "fixture_id": 639948,
+          "league_id": 2771,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/2.png",
+            "flag": null
+          },
+          "event_date": "2020-10-28T19:55:00+02:00",
+          "event_timestamp": 1603907700,
+          "firstHalfStart": null,
+          "secondHalfStart": null,
+          "round": "Group Stage - 2",
+          "status": "Not Started",
+          "statusShort": "NS",
+          "elapsed": 0,
+          "venue": "Stadion FK Krasnodar",
+          "referee": null,
+          "homeTeam": {
+            "team_id": 621,
+            "team_name": "Krasnodar",
+            "logo": "https://media.api-sports.io/football/teams/621.png"
+          },
+          "awayTeam": {
+            "team_id": 49,
+            "team_name": "Chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "goalsHomeTeam": null,
+          "goalsAwayTeam": null,
+          "score": {
+            "halftime": null,
+            "fulltime": null,
+            "extratime": null,
+            "penalty": null
+          }
+        },
+        {
+          "fixture_id": 592202,
+          "league_id": 2790,
+          "league": {
+            "name": "Premier League",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/39.png",
+            "flag": "https://media.api-sports.io/flags/gb.svg"
+          },
+          "event_date": "2020-10-31T17:00:00+02:00",
+          "event_timestamp": 1604156400,
+          "firstHalfStart": null,
+          "secondHalfStart": null,
+          "round": "Regular Season - 7",
+          "status": "Not Started",
+          "statusShort": "NS",
+          "elapsed": 0,
+          "venue": "Turf Moor",
+          "referee": null,
+          "homeTeam": {
+            "team_id": 44,
+            "team_name": "Burnley",
+            "logo": "https://media.api-sports.io/football/teams/44.png"
+          },
+          "awayTeam": {
+            "team_id": 49,
+            "team_name": "Chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "goalsHomeTeam": null,
+          "goalsAwayTeam": null,
+          "score": {
+            "halftime": null,
+            "fulltime": null,
+            "extratime": null,
+            "penalty": null
+          }
+        },
+        {
+          "fixture_id": 639967,
+          "league_id": 2771,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/2.png",
+            "flag": null
+          },
+          "event_date": "2020-11-04T22:00:00+02:00",
+          "event_timestamp": 1604520000,
+          "firstHalfStart": null,
+          "secondHalfStart": null,
+          "round": "Group Stage - 3",
+          "status": "Not Started",
+          "statusShort": "NS",
+          "elapsed": 0,
+          "venue": "Stamford Bridge",
+          "referee": null,
+          "homeTeam": {
+            "team_id": 49,
+            "team_name": "Chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "awayTeam": {
+            "team_id": 94,
+            "team_name": "Rennes",
+            "logo": "https://media.api-sports.io/football/teams/94.png"
+          },
+          "goalsHomeTeam": null,
+          "goalsAwayTeam": null,
+          "score": {
+            "halftime": null,
+            "fulltime": null,
+            "extratime": null,
+            "penalty": null
+          }
+        },
+        {
+          "fixture_id": 592213,
+          "league_id": 2790,
+          "league": {
+            "name": "Premier League",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/39.png",
+            "flag": "https://media.api-sports.io/flags/gb.svg"
+          },
+          "event_date": "2020-11-07T17:00:00+02:00",
+          "event_timestamp": 1604761200,
+          "firstHalfStart": null,
+          "secondHalfStart": null,
+          "round": "Regular Season - 8",
+          "status": "Not Started",
+          "statusShort": "NS",
+          "elapsed": 0,
+          "venue": "Stamford Bridge",
+          "referee": null,
+          "homeTeam": {
+            "team_id": 49,
+            "team_name": "Chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "awayTeam": {
+            "team_id": 62,
+            "team_name": "Sheffield Utd",
+            "logo": "https://media.api-sports.io/football/teams/62.png"
+          },
+          "goalsHomeTeam": null,
+          "goalsAwayTeam": null,
+          "score": {
+            "halftime": null,
+            "fulltime": null,
+            "extratime": null,
+            "penalty": null
+          }
+        }
+      ]
+    }
+  }
